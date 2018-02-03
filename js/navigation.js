@@ -34,7 +34,12 @@ $('#menu select').on('change',function() {
 });
 
 // indicate which navigation item we are currently looking at
-$('#menu a').click(function() {
+$('#menu a').on('click',function() {
+  var $anchor = $(this);
+  console.info(
+    'Habeis dado clic sobre la opción' +
+    $anchor.text()
+  );
   $('#menu li').removeClass("selected");
-  $(this).parent().addClass("selected");
+  $anchor.parent().addClass("selected");
 });
