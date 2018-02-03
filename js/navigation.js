@@ -1,9 +1,9 @@
 // add the select form drop down item
 
 $('#menu').append(
-  '<select id="select-1"></select>'+
-  '<select id="select-2"></select>'+
-  '<select id="select-3"></select>'+
+  //'<select id="select-1"></select>'+
+  //'<select id="select-2"></select>'+
+  //'<select id="select-3"></select>'+
   '<select id="select-4"></select>'
 );
 
